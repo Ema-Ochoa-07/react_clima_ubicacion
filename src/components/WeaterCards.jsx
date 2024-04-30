@@ -16,19 +16,19 @@ const WaterCards = ({weather, temp}) => {
           <div className='card__image-container'>
             <img className='card__image' src={weather && `https://openweathermap.org/img/wn/${weather.weather[0].icon}@4x.png`} alt="" />
           </div>
-          <article className='info__list'>
+          <article>
             <h3 className='info-title'>{weather?.weather[0].description}</h3>
             <ul className='info-list'>
               <li className='info__item'>
                 <span className='info__label'>Wind Speed</span>
-                <span className='info__value'>{weather?.wind.speed}m/s</span></li>
+                <span className='info__value'>{weather?.wind.speed} m/s</span></li>
               <li className='info__item'>
                 <span className='info__label'>Clouds</span>
-                <span className='info__value'>{weather?.clouds.all}</span>%</li>
+                <span className='info__value'>{weather?.clouds.all} %</span></li>
 
               <li className='info__item'>
                 <span className='info__label'>Pressure</span>
-                <span className='info__value'>{weather?.main.pressure}hPa</span></li>
+                <span className='info__value'>{weather?.main.pressure} hPa</span></li>
             </ul>
           </article>
         </section>

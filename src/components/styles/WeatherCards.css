@@ -36,39 +36,34 @@ card__body{
     gap: 1em
 }
 
-.card__title{
+.info-title{
     font-size: 1em;
     text-align: center;
     font-weight: 500;
+    padding-bottom: 2em;
     &::after,
     &::before{
         content: '"';
     }
 }
 
-/* .info__list{
+.info__list{
     display: grid;
-    gap: 0.5rem;
-} */
+    gap: 0.5em;
+}
 
-.card__list{
+.info__item{
     font-size: 0.9em;
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
 
-.card__item{
-    font-size: 0.9em;
-    display: grid;
-    grid-template-columns: 3fr ;
-}
-
-.card__label{
+.info_label{
     color:#555;
 }
 
-.card__value{
-    font-weight: 500;
+.info__value{
+    font-weight: 555;
 }
 
 .card__temp{
@@ -85,5 +80,6 @@ card__body{
     background-color: #0A5C70;
     color: white;
     padding: 1em;
+    border-radius: .6em
     
 }

@@ -63,7 +63,7 @@ useEffect(() => {
           <div>
             <Loader/>
             {
-              showMessagge && <p>debes permitir la ubicación</p>
+              showMessagge && <span className='showMessagge'>Please activate your location</span>
             }
           </div>
       )

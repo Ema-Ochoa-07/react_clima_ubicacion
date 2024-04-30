@@ -8,5 +8,15 @@
     align-items: center;
 }
 
+.showMessagge{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 530;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -8em;
+}
+
 
 

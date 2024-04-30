@@ -1,12 +1,22 @@
+.container{
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .loader {
-  width: 13em;
-  height: 13em;
-  border: 1.4em solid #FFF;
+  width: 11em;
+  height: 11em;
+  border: 1.2em solid #FFF;
   border-bottom-color: #0A5C70;
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
-  animation: rotation 1s linear infinite;
+  animation: rotation 1.3s linear infinite;
   }
 
   @keyframes rotation {

@@ -4,8 +4,8 @@ import React from 'react'
 const Error404 = () => {
   return (
     <div className='cont'>
-        <h1>Página no encontrada</h1>
-        <p className='zoom-area'> Porfavor active su <b>Ubicación</b> </p>
+        <h1>Page Not Found</h1>
+        <p className='zoom-area'> Please activate your <b>Location</b> </p>
 
         <section className='error-container'>
             <span className='four'><span className='screen-reader-text'>4</span></span>
